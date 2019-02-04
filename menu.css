@@ -1,0 +1,104 @@
+#menu {
+  background-image: url(menu-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+header {
+  width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 80px;
+  margin-right: -150px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 30px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+#wrap {
+  height: 2300px;
+  clear: both;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.main {
+  width: 940px;
+  font-family: 'Bitter', serif;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+  border-bottom: 1px solid black;
+  padding-top: 35px;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+.icon {
+  font-family: 'Bitter', serif;
+  font-size: 30px;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#menu .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#menu .photograph-list li>img {
+  width: 300px;
+  height: 300px;
+}
+
+#menu .photograph-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#chocolate {
+  clear: both;
+}
+
+#Shoeconfectionery {
+  clear: both;
+}
