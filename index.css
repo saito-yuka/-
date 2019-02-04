@@ -1,0 +1,88 @@
+#index {
+  background-image: url(../画像/TOP背景.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 80px;
+  margin-right: -150px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 30px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+#wrap {
+  clear: both;
+}
+
+#index h1 {
+  font-size: 90px;
+  line-height: 1;
+  color: pink;
+  font-family: serif;
+  margin-bottom: 50px;
+}
+
+#index .content {
+  margin-top: 150px;
+}
+
+#index p {
+  font-size: 16px;
+  color: pink;
+  margin-left: 20px;
+}
+
+.btn a {
+  background-color: pink;
+  color: white;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 300px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid pink;
+  text-decoration: none;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: pink;
+}
