@@ -1,0 +1,98 @@
+#about {
+  background-image: url(../画像/about-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+header {
+  width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 80px;
+  margin-right: -150px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 30px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+#wrap {
+  clear: both;
+  background-color: white;
+  margin-top: 100px;
+  padding: 35px 0;
+}
+
+.main-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+  border-bottom: 1px solid black;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+.icon::before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#about .Company-txt {
+  width: 540px;
+  float: left;
+}
+
+#about .Company-txt span {
+  font-weight: bold;
+}
+
+#about .cake-image {
+  width: 350px;
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display:block;
+  clear: both;
+}
+
+section {
+  margin-bottom: 35px;
+}
